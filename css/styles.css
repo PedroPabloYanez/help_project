@@ -11396,16 +11396,25 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  text-align: center;
+  background-image: url("../assets/img/portada.png");
+  background-size: 200%;
+  animation: movimiento 10s infinite linear alternate;
+  position: relative;
+  opacity: 0.85;
+  color: #000;
+  
 }
+@keyframes movimiento{
+  from{
+    background-position: bottom left;
+  }to{
+    background-position: top right;
+  }
+}
+
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -11437,6 +11446,8 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+    color: rgba(0, 240, 32, 0.795);
+    position:sticky;
   }
 }
 #portfolio .portfolio-item {
