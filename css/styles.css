@@ -91,6 +91,12 @@ body {
   color: rgb(9 152 69);
 }
 
+
+.fa-stack:hover{
+  -webkit-transition: all .3s;
+  transition: all .5s ease-in-out;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
