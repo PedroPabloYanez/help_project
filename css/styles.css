@@ -644,11 +644,16 @@ progress {
 }
 
 @media (min-width: 576px) {
+  
   .container-sm, .container {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
+  header.masthead {
+    background-size: 250%;
+    padding-bottom: 12.5rem;
+  }
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
@@ -11401,7 +11406,7 @@ header.masthead {
   background-position: center center;
   text-align: center;
   background-image: url("../assets/img/portada.png");
-  background-size: cover;
+  background-size: 235%;
   animation: movimiento 15s infinite linear alternate;
   position: relative;
   opacity: 0.9;
@@ -11443,7 +11448,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-   
+    background-size: 250%;
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
@@ -11698,6 +11703,10 @@ header.masthead .masthead-heading {
   }
 }
 @media (min-width: 1200px) {
+  header.masthead {
+    background-size: 120%;
+    padding-bottom: 12.5rem;
+  }
   .timeline > li {
     min-height: 170px;
   }
