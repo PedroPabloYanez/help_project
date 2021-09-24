@@ -91,9 +91,17 @@ body {
   color: rgb(9 152 69);
 }
 
-.fa-stack:hover{
-  transform: scale(1.1);
-  transition: 0.3s;
+.fa-stack {
+  transition: all 0.5s ease-in-out;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.fa-stack:hover {
+  transition: all 0.5s ease-in-out;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-transform: scale(1.12, 1.12);
+  -webkit-transform-duration: 100ms;
 }
 
 hr {
@@ -11412,9 +11420,9 @@ p {
   position: fixed;
   z-index: 999;
   border-radius: 50%;
-  bottom: 35px;
+  bottom: 45px;
   right: 25px;
-  padding: 15px;
+  padding: 18px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite;
 }
@@ -11425,7 +11433,7 @@ p {
 }
 
 .boton{
-  width: 45px;
+  width: 42px;
   transition: ease 1s;
 }
 
