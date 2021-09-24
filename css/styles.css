@@ -91,10 +91,9 @@ body {
   color: rgb(9 152 69);
 }
 
-
 .fa-stack:hover{
-  -webkit-transition: all .3s;
-  transition: all .5s ease-in-out;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 hr {
@@ -11413,9 +11412,9 @@ p {
   position: fixed;
   z-index: 999;
   border-radius: 50%;
-  bottom: 30px;
+  bottom: 35px;
   right: 25px;
-  padding: 12px;
+  padding: 15px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite;
 }
@@ -11426,7 +11425,7 @@ p {
 }
 
 .boton{
-  width: 50px;
+  width: 45px;
   transition: ease 1s;
 }
 
