@@ -11311,7 +11311,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11474,9 +11474,10 @@ header.masthead {
 }
 
 .text-beneficios{
-  box-shadow: 10px 10px 10px rgb(116, 112, 112);
-  border: 6px groove #3EC483;
-  background: #5DEAA8;
+  box-shadow: 5px 5px rgb(35, 136, 66);
+  border-radius: 10px;
+  --border: 3px solid #3EC483;
+  background: #5deaa888;
   height: 200px;
   width: 412px;
   padding: 10px;
@@ -11484,19 +11485,20 @@ header.masthead {
 }
 
 .text-beneficios2{
-  box-shadow: 10px 10px 10px rgb(116, 112, 112);
-  border: 6px groove #f00000;
-  background: #e06767;
+  box-shadow: 5px 5px rgb(187, 16, 16);
+  border-radius: 10px;
+  background: #e06767bb;
   height: 200px;
   width: 430px;
   padding: 10px;
   margin: -10px;
   margin-top: 10px;
 }
+
 @media (max-width: 600px) {
   .text-beneficios{
-    box-shadow: 10px 10px 10px rgb(116, 112, 112);
-    border: 6px groove #3EC483;
+    box-shadow: 5px 5px rgb(35, 136, 66);
+    border-radius: 10px;
     background: #5DEAA8;
     height: 340px;
     width: 232px;
@@ -11505,9 +11507,9 @@ header.masthead {
   }
 
   .text-beneficios2{
-    box-shadow: 10px 10px 10px rgb(116, 112, 112);
-    border: 6px groove #f00000;
-    background: #e06767;
+    box-shadow: 5px 5px rgb(187, 16, 16);
+    border-radius: 10px;
+    background: #e06767bb;
     height: 340px;
     width: 232px; 
   }
@@ -11515,17 +11517,17 @@ header.masthead {
 
 @media (max-width: 1024px) {
   .text-beneficios{
-    box-shadow: 10px 10px 10px rgb(116, 112, 112);
-    border: 6px groove #3EC483;
+    box-shadow: 5px 5px rgb(35, 136, 66);
+    border-radius: 10px;
     background: #5DEAA8;
     height: 340px;
     width: 232px;
     margin-top: 10px;
   }
   .text-beneficios2{
-    box-shadow: 10px 10px 10px rgb(116, 112, 112);
-    border: 6px groove #f00000;
-    background: #e06767;
+    box-shadow: 5px 5px rgb(187, 16, 16);
+    border-radius: 10px;
+    background: #e06767bb;
     height: 340px;
     width: 232px; 
   }
@@ -11706,8 +11708,8 @@ header.masthead .masthead-heading {
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin-left: 0;
   text-align: center;
   color: #000;
@@ -11716,7 +11718,7 @@ header.masthead .masthead-heading {
   background-color: #fff;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-  font-size: 8px;
+  font-size: 12px;
   line-height: 14px;
   margin-top: 12px;
 }
