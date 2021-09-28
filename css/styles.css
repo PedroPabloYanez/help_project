@@ -3054,6 +3054,10 @@ textarea.form-control-lg {
   background-color:  #0f7d17 ;
   border-color: #0f7d17 ;
 }
+.sombra{
+  box-shadow: 10px 5px 5px black;
+}
+
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #d9aa00;
@@ -11318,6 +11322,12 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+.titulo{
+  color:rgb(35, 136, 66);
+  text-shadow: 2px 2px rgba(233, 10, 10, 0.836);
+}
+
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
