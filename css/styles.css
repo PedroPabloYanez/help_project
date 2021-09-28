@@ -11487,71 +11487,45 @@ header.masthead {
 .text-beneficios{
   box-shadow: 5px 5px rgb(35, 136, 66);
   border-radius: 10px;
-  --border: 3px solid #3EC483;
-  background: #5deaa888;
-  height: 200px;
-  width: 412px;
+  background: #5DEAA8;
+  
+  margin-top: 10px;
   padding: 10px;
-  margin: 10px;
 }
 
 .text-beneficios2{
   box-shadow: 5px 5px rgb(187, 16, 16);
   border-radius: 10px;
   background: #e06767bb;
-  height: 200px;
-  width: 430px;
   padding: 10px;
-  margin: -10px;
+  
   margin-top: 10px;
 }
 
-@media (max-width: 600px) {
-  .text-beneficios{
-    box-shadow: 5px 5px rgb(35, 136, 66);
-    border-radius: 10px;
-    background: #5DEAA8;
-    height: 340px;
-    width: 232px;
-    margin: -10px;
-    margin-top: 10px;
-  }
 
-  .text-beneficios2{
-    box-shadow: 5px 5px rgb(187, 16, 16);
-    border-radius: 10px;
-    background: #e06767bb;
-    height: 340px;
-    width: 232px; 
-  }
+.contact-box{
+  border: 1px solid; 
+  background: rgba(0, 0, 0, 0.493);
+  width: 350px;
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  margin: auto;
 }
 
-@media (max-width: 1024px) {
-  .text-beneficios{
-    box-shadow: 5px 5px rgb(35, 136, 66);
-    border-radius: 10px;
-    background: #5DEAA8;
-    height: 340px;
-    width: 232px;
-    margin-top: 10px;
-    
-  }
-  .text-beneficios2{
-    box-shadow: 5px 5px rgb(187, 16, 16);
-    border-radius: 10px;
-    background: #e06767bb;
-    height: 340px;
-    width: 232px; 
-  }
+
+
+.msg-box{
+  border: 1px solid; 
+  background: rgba(0, 0, 0, 0.493);
+  width: 250px;
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  margin: auto;
 }
-
-@media (min-width: 1800px) { 
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
-  }
-} 
-
-
 
 
 header.masthead .masthead-subheading {
@@ -11735,7 +11709,8 @@ header.masthead .masthead-heading {
   color: #000;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: rgba(48, 206, 34, 0.767);
+  margin-top: 10px;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 12px;
