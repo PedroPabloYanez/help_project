@@ -11727,6 +11727,12 @@ header.masthead .masthead-heading {
   line-height: 14px;
   margin-top: 12px;
 }
+
+@media (max-width: 576px){
+  .se-parte{
+    padding-top: 8px;
+  }
+}
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
