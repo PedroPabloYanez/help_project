@@ -11670,7 +11670,7 @@ header.masthead .masthead-heading {
 }
 .timeline:before {
   position: absolute;
-  top: 0;
+  top: 12px;
   bottom: 0;
   left: 40px;
   width: 2px;
